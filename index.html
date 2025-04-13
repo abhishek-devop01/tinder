@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body>
+     <div class="w-full h-screen bg-black font-['Gilroy']">
+          <div class="imagecontainer w-full h-screen">
+               <div class="maincard z-[3] w-full absolute h-screen bg-orange-600">
+                    <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1741802856120-3b915476f1ab?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+               </div>
+               <div class="incomingcard z-[2] w-full absolute h-screen bg-green-600"></div>
+          </div>
+          <div class="absolute top-0 left-0 z-[4] w-full h-screen flex flex-col justify-between ">
+               <div class="navbar flex justify-between items-center px-5 py-6 text-white">
+                    <div class="prflimg w-[3.2rem] h-[3.2rem] rounded-full overflow-hidden">
+                         <img class="w-full h-full object-cover " src="https://images.unsplash.com/photo-1742038107091-9a7e1f01b42c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    </div>
+                    <h3 class="font-bold tracking-tight text-2xl">They liked you</h3>
+                    <div class="chaticon relative flex items-center justify-center w-[3.2rem] h-[3.2rem] bg-white/30 rounded-full">
+                         <i class="opacity-80 text-xl ri-chat-3-fill"></i>
+                         <div class="badge flex items-center justify-center rounded-full top-0 right-0 -translate-y-[5px] translate-x-[3px] absolute w-5 h-5 bg-[#FC5149]">
+                              <h5 class="text-[12px] font-semibold ">5</h5>
+                         </div>
+                    </div>
+               </div>
+               <div class="details w-full px-5">
+                    <div class="flex gap-4">
+                         <i class="w-[1.6rem] h-[1.6rem] bg-white flex items-center justify-center rounded-full font-semibold ri-corner-left-up-line"></i>
+                         <h3  class=" text-white">USA, California</h3>
+                    </div>
+                    <div class="flex gap-5 text-white mt-2 ">
+                         <h1 class="text-7xl font-regular tracking-tighter">Victoria</h1>
+                         <h1 class="text-7xl font-regular tracking-tighter opacity-60">20</h1>
+                    </div>
+                    <div class="tags flex gap-3 text-white mt-4">
+                         <div class="tags flex items-center bg-white/30 px-3 py-1 rounded-full gap-3 ">
+                              <i class="ri-music-2-fill"></i>
+                              <h3 class="text-sm tracking-tighter">Music</h3>
+                         </div>
+                         <div class="tags flex items-center bg-white/30 px-3 py-1 rounded-full gap-3 ">
+                              <i class="ri-music-2-fill"></i>
+                              <h3 class="text-sm tracking-tighter">Music</h3>
+                         </div>
+                         <div class="tags flex items-center bg-white/30 px-3 py-1 rounded-full gap-3 ">
+                              <i class="ri-music-2-fill"></i>
+                              <h3 class="text-sm tracking-tighter">Music</h3>
+                         </div>
+                    </div>
+                    <div class="bio text-white/80 mt-5">
+                         <h3 class="text-xl">Bio</h3>
+                         <p class="text-lg mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic earum assumenda eum eveniet, in non laboriosam harum perferendis nihil nulla quibusdam iste, accusamus molestias sint omnis at voluptates facilis quia.</p>
+                    </div>
+                    <div class="flex items-start mt-10 gap-1">
+                         <button class="rounded-xl py-3 w-1/2 bg-white">
+                              <i class="text-3xl  ri-close-line"></i>
+                         </button>
+                         <button class="rounded-xl py-3 w-1/2 bg-[#FC5149]">
+                              <i class="text-3xl text-white ri-heart-2-fill"></i>
+                         </button>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <script src="script.js"></script>
+</body>
+</html>
